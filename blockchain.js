@@ -17,7 +17,7 @@ class Block {
 
 class Blockchain {
     constructor() {
-        this.chain = [this.createGenesisBlock()]; // Tạo blockchain với khối gốc (Genesis Block)
+        this.chain = [this.createGenesisBlock()]; // Tạo blockchain với khối gốc
     }
 
     // Tạo khối gốc đầu tiên
