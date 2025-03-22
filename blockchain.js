@@ -33,7 +33,7 @@ class Blockchain {
     // Thêm một khối mới vào chuỗi
     addBlock(newBlock) {
         newBlock.previousHash = this.getLatestBlock().hash; // Liên kết với khối trước đó
-        newBlock.hash = newBlock.calculateHash(); // Tính mã băm mới
+        newBlock.hash = newBlock.calculateHash(); 
         this.chain.push(newBlock);
     }
 
